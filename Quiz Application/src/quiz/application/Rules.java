@@ -25,14 +25,14 @@ public class Rules extends JFrame implements ActionListener{
         rules.setFont(new Font("Tahoma", Font.PLAIN, 16));
         rules.setText(
             "<html>"+ 
-                "1. You are trained to be a programmer and not a story teller, answer point to point" + "<br><br>" +
-                "2. Do not unnecessarily smile at the person sitting next to you, they may also not know the answer" + "<br><br>" +
-                "3. You may have lot of options in life but here all the questions are compulsory" + "<br><br>" +
-                "4. Crying is allowed but please do so quietly." + "<br><br>" +
-                "5. Only a fool asks and a wise answers (Be wise, not otherwise)" + "<br><br>" +
-                "6. Do not get nervous if your friend is answering more questions, may be he/she is doing Jai Mata Di" + "<br><br>" +
-                "7. Brace yourself, this paper is not for the faint hearted" + "<br><br>" +
-                "8. May you know more than what John Snow knows, Good Luck" + "<br><br>" +
+                "1. The quiz consists of predefined multiple-choice questions loaded at the start of the quiz." + "<br><br>" +
+                "2. The user is allowed to choose only one answer for each question." + "<br><br>" +
+                "3. Users cannot skip a question or go back to a previous question once they move forward." + "<br><br>" +
+                "4. Marks are awarded only for correct answers; no marks are deducted for wrong answers." + "<br><br>" +
+                "5. All questions have the same weightage to ensure fairness in evaluation." + "<br><br>" +
+                "6. Once all questions are attempted, the system automatically displays the final score." + "<br><br>" +
+                "7. The quiz always starts from Question 1; resuming from the middle is not allowed." + "<br><br>" +
+                "8. Once the quiz is completed, the user must restart the application to attempt again." + "<br><br>" +
             "<html>"
         );
         add(rules);
@@ -70,3 +70,4 @@ public class Rules extends JFrame implements ActionListener{
         new Rules("User");
     }
 }
+
